@@ -1,0 +1,21 @@
+/*
+Theme Name: Kream
+Theme URI: http://kream.hu
+Author: Hellobit.hu & 28inch.co.uk
+Author URI: www.kream.hu/about/
+Description: Kream.hu egyedi sablon
+Version: 0.1
+License: GNU General Public License
+License URI: license.txt
+Tags:Kream
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+@import url("css/style.css");

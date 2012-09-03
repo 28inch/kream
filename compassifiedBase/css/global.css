@@ -1,0 +1,369 @@
+/* =Global ----------------------------------------------- */
+/* line 8, ../sass/global.scss */
+body,
+button,
+input,
+select,
+textarea {
+  color: #404040;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* Headings */
+/* line 17, ../sass/global.scss */
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+}
+
+/* line 20, ../sass/global.scss */
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+}
+
+/* Text elements */
+/* line 28, ../sass/global.scss */
+p {
+  margin-bottom: 1.5em;
+}
+
+/* line 31, ../sass/global.scss */
+ul, ol {
+  margin: 0 0 1.5em 3em;
+}
+
+/* line 34, ../sass/global.scss */
+ul {
+  list-style: disc;
+}
+
+/* line 37, ../sass/global.scss */
+ol {
+  list-style: decimal;
+}
+
+/* line 40, ../sass/global.scss */
+ul ul, ol ol, ul ol, ol ul {
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+/* line 44, ../sass/global.scss */
+dt {
+  font-weight: bold;
+}
+
+/* line 47, ../sass/global.scss */
+dd {
+  margin: 0 1.5em 1.5em;
+}
+
+/* line 50, ../sass/global.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 53, ../sass/global.scss */
+dfn, cite, em, i {
+  font-style: italic;
+}
+
+/* line 56, ../sass/global.scss */
+blockquote {
+  margin: 0 1.5em;
+}
+
+/* line 59, ../sass/global.scss */
+address {
+  margin: 0 0 1.5em;
+}
+
+/* line 62, ../sass/global.scss */
+pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  padding: 1.6em;
+  overflow: auto;
+  max-width: 100%;
+}
+
+/* line 73, ../sass/global.scss */
+code, kbd, tt, var {
+  font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+/* line 76, ../sass/global.scss */
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+/* line 80, ../sass/global.scss */
+mark, ins {
+  background: #fff9c0;
+  text-decoration: none;
+}
+
+/* line 85, ../sass/global.scss */
+sup,
+sub {
+  font-size: 75%;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 92, ../sass/global.scss */
+sup {
+  bottom: 1ex;
+}
+
+/* line 95, ../sass/global.scss */
+sub {
+  top: .5ex;
+}
+
+/* line 98, ../sass/global.scss */
+small {
+  font-size: 75%;
+}
+
+/* line 101, ../sass/global.scss */
+big {
+  font-size: 125%;
+}
+
+/* line 104, ../sass/global.scss */
+figure {
+  margin: 0;
+}
+
+/* line 107, ../sass/global.scss */
+table {
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+/* line 111, ../sass/global.scss */
+th {
+  font-weight: bold;
+}
+
+/* line 117, ../sass/global.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* Corrects font size not being inherited in all browsers */
+  margin: 0;
+  /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
+  vertical-align: baseline;
+  /* Improves appearance and consistency in all browsers */
+  *vertical-align: middle;
+  /* Improves appearance and consistency in all browsers */
+}
+
+/* line 124, ../sass/global.scss */
+button,
+input {
+  line-height: normal;
+  /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
+  *overflow: visible;
+  /* Corrects inner spacing displayed oddly in IE6/7 */
+}
+
+/* line 131, ../sass/global.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: 1px solid #ccc;
+  border-color: #ccc #ccc #bbb #ccc;
+  border-radius: 3px;
+  background: #fafafa;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fafafa 60%, #e6e6e6 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #fafafa), color-stop(100%, #e6e6e6));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fafafa 60%, #e6e6e6 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fafafa 60%, #e6e6e6 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fafafa 60%, #e6e6e6 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #fafafa 60%, #e6e6e6 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#e6e6e6',GradientType=0 );
+  /* IE6-9 */
+  box-shadow: inset 0 2px 1px #fff;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  /* Improves usability and consistency of cursor style between image-type 'input' and others */
+  -webkit-appearance: button;
+  /* Corrects inability to style clickable 'input' types in iOS */
+  font-size: 12px;
+  font-size: 1.4rem;
+  padding: 1.12em 1.5em .88em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* line 155, ../sass/global.scss */
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background: #f5f5f5;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, whitesmoke 60%, gainsboro 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, whitesmoke), color-stop(100%, gainsboro));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, whitesmoke 60%, gainsboro 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, whitesmoke 60%, gainsboro 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, whitesmoke 60%, gainsboro 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #f5f5f5 60%, #dcdcdc 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#dcdcdc',GradientType=0 );
+  /* IE6-9 */
+  border-color: #bbb #bbb #aaa #bbb;
+}
+
+/* line 173, ../sass/global.scss */
+button:focus,
+html input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+html input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+  border-color: #aaa #bbb #bbb #bbb;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* line 179, ../sass/global.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* Addresses box sizing set to content-box in IE8/9 */
+  padding: 0;
+  /* Addresses excess padding in IE8/9 */
+}
+
+/* line 183, ../sass/global.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* Addresses appearance set to searchfield in S5, Chrome */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
+  box-sizing: content-box;
+}
+
+/* line 189, ../sass/global.scss */
+input[type="search"]::-webkit-search-decoration {
+  /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+  -webkit-appearance: none;
+}
+
+/* line 193, ../sass/global.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+  border: 0;
+  padding: 0;
+}
+
+/* line 198, ../sass/global.scss */
+input[type=text],
+textarea {
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* line 204, ../sass/global.scss */
+input[type=text]:focus,
+textarea:focus {
+  color: #111;
+}
+
+/* line 207, ../sass/global.scss */
+input[type=text] {
+  padding: 3px;
+}
+
+/* line 210, ../sass/global.scss */
+textarea {
+  overflow: auto;
+  /* Removes default vertical scrollbar in IE6/7/8/9 */
+  padding-left: 3px;
+  vertical-align: top;
+  /* Improves readability and alignment in all browsers */
+  width: 98%;
+}
+
+/* Links */
+/* line 218, ../sass/global.scss */
+a {
+  color: royalblue;
+}
+
+/* line 221, ../sass/global.scss */
+a:visited {
+  color: purple;
+}
+
+/* line 226, ../sass/global.scss */
+a:hover,
+a:focus,
+a:active {
+  color: midnightblue;
+}
+
+/* Alignment */
+/* line 231, ../sass/global.scss */
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+
+/* line 236, ../sass/global.scss */
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+
+/* line 241, ../sass/global.scss */
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Text meant only for screen readers */
+/* line 248, ../sass/global.scss */
+.assistive-text {
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}

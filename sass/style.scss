@@ -1,0 +1,10 @@
+@import "partials/config";
+@import "partials/reset";
+@import "partials/global";
+@import "partials/nav";
+@import "partials/wpmix";
+
+
+body{
+	color:$base-color;
+}

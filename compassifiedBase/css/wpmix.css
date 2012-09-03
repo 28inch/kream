@@ -1,0 +1,171 @@
+/* =Content
+----------------------------------------------- */
+/* line 6, ../sass/wpmix.scss */
+.hentry {
+  margin: 0 0 1.5em;
+}
+
+/* line 9, ../sass/wpmix.scss */
+.entry-meta {
+  clear: both;
+}
+
+/* line 12, ../sass/wpmix.scss */
+.byline {
+  display: none;
+}
+
+/* line 16, ../sass/wpmix.scss */
+.single .byline,
+.group-blog .byline {
+  display: inline;
+}
+
+/* line 20, ../sass/wpmix.scss */
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0;
+}
+
+/* line 23, ../sass/wpmix.scss */
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em;
+}
+
+/* =Asides
+----------------------------------------------- */
+/* line 33, ../sass/wpmix.scss */
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+  display: none;
+}
+
+/* =Media
+----------------------------------------------- */
+/* line 44, ../sass/wpmix.scss */
+.site-header img,
+.entry-content img,
+.comment-content img,
+.widget img {
+  max-width: 100%;
+  /* Fluid images for posts, comments, and widgets */
+}
+
+/* line 50, ../sass/wpmix.scss */
+.site-header img,
+.entry-content img,
+img[class*="align"],
+img[class*="wp-image-"] {
+  height: auto;
+  /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+
+/* line 55, ../sass/wpmix.scss */
+.site-header img,
+.entry-content img,
+img.size-full {
+  max-width: 100%;
+  width: auto;
+  /* Prevent stretching of full-size images with height and width attributes in IE8 */
+}
+
+/* line 60, ../sass/wpmix.scss */
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* line 66, ../sass/wpmix.scss */
+.wp-caption {
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
+
+/* line 72, ../sass/wpmix.scss */
+.wp-caption.aligncenter,
+.wp-caption.alignleft,
+.wp-caption.alignright {
+  margin-bottom: 1.5em;
+}
+
+/* line 75, ../sass/wpmix.scss */
+.wp-caption img {
+  display: block;
+  margin: 1.2% auto 0;
+  max-width: 98%;
+}
+
+/* line 80, ../sass/wpmix.scss */
+.wp-caption-text {
+  text-align: center;
+}
+
+/* line 83, ../sass/wpmix.scss */
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}
+
+/* line 86, ../sass/wpmix.scss */
+#content .gallery {
+  margin-bottom: 1.5em;
+}
+
+/* line 91, ../sass/wpmix.scss */
+#content .gallery a img {
+  border: none;
+  height: auto;
+  max-width: 90%;
+}
+
+/* line 96, ../sass/wpmix.scss */
+#content .gallery dd {
+  margin: 0;
+}
+
+/* Make sure embeds and iframes fit their containers */
+/* line 107, ../sass/wpmix.scss */
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+/* =Navigation
+----------------------------------------------- */
+/* line 115, ../sass/wpmix.scss */
+#content .site-navigation {
+  margin: 0 0 1.5em;
+  overflow: hidden;
+}
+
+/* line 119, ../sass/wpmix.scss */
+#content .nav-previous {
+  float: left;
+  width: 50%;
+}
+
+/* line 123, ../sass/wpmix.scss */
+#content .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
+/* =Comments
+----------------------------------------------- */
+/* =Widgets
+----------------------------------------------- */
+/* line 138, ../sass/wpmix.scss */
+.widget {
+  margin: 0 0 1.5em;
+}
+
+/* Search widget */
+/* line 143, ../sass/wpmix.scss */
+#searchsubmit {
+  display: none;
+}
